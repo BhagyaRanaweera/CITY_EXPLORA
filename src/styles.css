@@ -1,0 +1,88 @@
+/* Global styles */
+body {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Header styles */
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Search bar styles */
+  input.form-control {
+    border: 2px solid #6c5ce7;
+    border-radius: 25px;
+    padding: 10px;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #00cec9;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0984e3;
+    transform: scale(1.05);
+  }
+  
+  /* List group styles */
+  .list-group-item {
+    border: none;
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 15px;
+    background: #ffeaa7;
+    color: #2d3436;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-group-item.active {
+    background: #55efc4;
+    color: #2d3436;
+  }
+  
+  .list-group-item:hover {
+    background: #81ecec;
+    cursor: pointer;
+  }
+  
+  /* City details box */
+  .alert-info {
+    background-color: #74b9ff;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  /* Add city form styles */
+  textarea,
+  input[type="text"] {
+    border: 2px solid #fd79a8;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  textarea:focus,
+  input[type="text"]:focus {
+    border-color: #fdcb6e;
+    box-shadow: 0 0 10px rgba(253, 203, 110, 0.5);
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #2d3436;
+  }
+  
